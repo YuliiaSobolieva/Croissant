@@ -1,7 +1,24 @@
-body {
-  color: white;
-  background-color: blueviolet;
-}
 a {
-  color: whitesmoke;
+  color: #142d4c;
+}
+
+div {
+  color: #142d4c;
+  background-color: #ffebbb;
+  padding: 20px;
+  border: #142d4c;
+}
+.photo {
+  display: flex;
+}
+
+.croissans-photo {
+  margin-left: 10px;
+  width: 200px;
+  flex: 0 0 50%;
+}
+
+.croissants-maine-page-photo,
+.croissants-contact-page-photo {
+  width: 400px;
 }
